@@ -2,20 +2,218 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Menage Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="font-sans">
     <!--Navbar-->
-    <nav class="relative conteiner mx-auto p-6 ">
+    <nav class="navbar">
         <!-- Flex container -->
-        <div class="flex items-center justify-between">
+        <div class="navbar-container">
             <!-- Logo -->
-            <div class="pt-2">
-                
+            <div class="logo-container">
+                <img src="img/logo.svg" alt="Logo">
+            </div>
+            <!-- Menu Items -->
+            <div class="hidden-menu space-x-6 md:flex">
+                <a href="#" class="nav-link">Pricing</a>
+                <a href="#" class="nav-link">Product</a>
+                <a href="#" class="nav-link">About Us</a>
+                <a href="#" class="nav-link">Careers</a>
+                <a href="#" class="nav-link">Community</a>
+            </div>
+            <!-- Button -->
+            <div class="hidden-btn md:block">
+                <a href="" class="btn-primary">Get Started</a>
+            </div>
+            <!-- Hamburger menu -->
+            <button id="menu-btn" class="hamburger-btn md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu" class="mobile-menu">
+                <a href="#" class="nav-link">Pricing</a>
+                <a href="#" class="nav-link">Product</a>
+                <a href="#" class="nav-link">About Us</a>
+                <a href="#" class="nav-link">Careers</a>
+                <a href="#" class="nav-link">Community</a>
+                <a href="" class="btn-primary">Get Started</a>
             </div>
         </div>
     </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <!-- Left items -->
+            <div class="hero-left">
+                <h1 class="hero-title">Bring everyone together to build better products.</h1>
+                <p class="hero-subtitle">
+                    Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
+                </p>
+                <div class="hero-btn">
+                    <a href="" class="btn-primary">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Right items -->
+            <div class="hero-right">
+                <img src="img/illustration-intro.svg" alt="Illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="Features" class="features">
+        <div class="features-container">
+            <!-- What's Different -->
+            <div class="different">
+                <h2 class="different-title">What's different about Manage?</h2>
+                <p class="different-subtitle">
+                    Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.
+                </p>
+            </div>
+
+            <!-- Number List -->
+            <div class="number-list">
+                <!-- Item 1 -->
+                <div class="list-item">
+                    <div class="list-item-head">
+                        <div class="list-item-number">01</div>
+                        <h3 class="list-item-title">Track company-wide progress</h3>
+                    </div>
+                    <div class="list-item-content">
+                        <p class="list-item-text">
+                            See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="list-item">
+                    <div class="list-item-head">
+                        <div class="list-item-number">02</div>
+                        <h3 class="list-item-title">Advance built-in reports</h3>
+                    </div>
+                    <div class="list-item-content">
+                        <p class="list-item-text">
+                            Set internal delivery estimates and track progress toward company goals. Our customizable dashboard helps you build out the reports you need to keep key stakeholders informed.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="list-item">
+                    <div class="list-item-head">
+                        <div class="list-item-number">03</div>
+                        <h3 class="list-item-title">Everything you need in one place</h3>
+                    </div>
+                    <div class="list-item-content">
+                        <p class="list-item-text">
+                            Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="Testimonials" class="testimonials">
+        <div class="testimonials-container">
+            <!-- Container for Heading and testimonials -->
+            <div class="testimonial-heading">
+                <h2 class="testimonial-title">What they've said</h2>
+            </div>
+            <!-- Testimonials Container -->
+            <div class="testimonial-list">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-item">
+                    <img src="img/avatar-anisha.png" class="testimonial-avatar" alt="">
+                    <h5 class="testimonial-name">Anisha Li</h5>
+                    <p class="testimonial-text">
+                        “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”
+                    </p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-item">
+                    <img src="img/avatar-ali.png" class="testimonial-avatar" alt="">
+                    <h5 class="testimonial-name">Ali Bravo</h5>
+                    <p class="testimonial-text">
+                        “We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”
+                    </p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-item">
+                    <img src="img/avatar-richard.png" class="testimonial-avatar" alt="">
+                    <h5 class="testimonial-name">Richard Watts</h5>
+                    <p class="testimonial-text">
+                        “Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”
+                    </p>
+                </div>
+            </div>
+            <!-- Button -->
+            <div class="testimonial-btn">
+                <a href="" class="btn-primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <!-- CTA -->
+    <section id="cta" class="cta">
+        <div class="cta-container">
+            <h2 class="cta-title">Simplify how your team works today.</h2>
+            <div class="cta-btn">
+                <a href="" class="btn-cta">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo and social links container -->
+            <div class="footer-logo">
+                <img src="img/logo-white.svg" class="footer-logo-img" alt="Logo" />
+            </div>
+            <!-- List Container -->
+            <div class="footer-list">
+                <div class="footer-column">
+                    <a href="#" class="footer-link">Home</a>
+                    <a href="#" class="footer-link">Pricing</a>
+                    <a href="#" class="footer-link">Products</a>
+                    <a href="#" class="footer-link">About</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#" class="footer-link">Careers</a>
+                    <a href="#" class="footer-link">Community</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+            </div>
+
+            <!-- Input Container -->
+            <div class="footer-input">
+                <form>
+                    <div class="footer-input-group">
+                        <input
+                            type="text"
+                            class="footer-input-field"
+                            placeholder="Updated in your inbox"
+                        />
+                        <button class="footer-btn">Go</button>
+                    </div>
+                </form>
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <div class="footer-text">Copyright &copy; 2022, All Rights Reserved</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
+
