@@ -11,17 +11,17 @@ function fistCharUpper(string){
     for (n in strList){
         strList[n]= strList[n].charAt(0).toUpperCase()+ strList[n].substring(1);
         if (n>0){
-            result+= " "+strList[n]
+            result+= " "+strList[n];
         }
         else {
-            result += strList[n]
+            result += strList[n];
         }
         n++;
     }
-    console.log(result)
-    return result
+    console.log(result);
+    return result;
 }
 
-const string = "verry verry verry verry good!!!";
+const string = "very very very very good!!!";
 
 console.log(fistCharUpper(string))
