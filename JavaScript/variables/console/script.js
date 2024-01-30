@@ -11,8 +11,8 @@ var a = 9;
 console.log(a);
 
 if (a<10) {
-    console.error("a is less than 10");
-    a+=2;
+console.error("a is less than 10");
+a+=2;
 }
 
 if (a > 10) {
