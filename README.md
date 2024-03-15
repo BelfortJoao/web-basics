@@ -1,25 +1,24 @@
-# Web Basics - Fundamentos da Web
+# Processamento Digital de Imagens (PDI)
 
-Este repositório contém um estudo básico dos fundamentos da web, incluindo SASS, Vue.js, React, Tailwind CSS, JavaScript, Git, GitHub, npm, TypeScript, Node.js, Express.js, Vue.js, Nuxt.js, Next.js, etc.
+Esse repositório contém os projetos criados durante a disciplina de Graduação da UFV sobre Processamento Digital de Imagens, incluindo códigos e relatórios.
 
-This repository contains a basic study of web fundamentals, including SASS, Vue.js, React, Tailwind CSS, JavaScript, Git, GitHub, npm, TypeScript, Node.js, Express.js, Vue.js, Nuxt.js, Next.js, etc.
+This repository contains projects created during the undergraduate course at UFV on Digital Image Processing, including codes and reports.
 
 ## Descrição / Description
 
-O repositório "Web Basics" é dedicado ao estudo dos fundamentos da web e suas principais tecnologias e ferramentas. Ele abrange uma variedade de tópicos, desde pré-processadores CSS como SASS até bibliotecas e frameworks JavaScript como Vue.js e React. Além disso, inclui ferramentas de desenvolvimento como Git, GitHub e npm, e também explora o uso de TypeScript e frameworks como Node.js, Express.js, Vue.js, Nuxt.js e Next.js.
+O repositório "PDI" é dedicado ao estudo dos fundamentos do processamento digital de imagens e suas principais tecnologias e ferramentas. Ele abrange uma variedade de tópicos, desde técnicas básicas de processamento de imagens até algoritmos mais avançados. Além disso, inclui ferramentas de desenvolvimento como Git, GitHub e npm, e também explora o uso de linguagens de programação como Python e suas bibliotecas voltadas para o processamento de imagens, como OpenCV e PIL.
 
-The "Web Basics" repository is dedicated to the study of web fundamentals and its main technologies and tools. It covers a variety of topics, from CSS preprocessors like SASS to JavaScript libraries and frameworks like Vue.js and React. Additionally, it includes development tools like Git, GitHub, and npm, and also explores the use of TypeScript and frameworks like Node.js, Express.js, Vue.js, Nuxt.js, and Next.js.
+This repository "PDI" is dedicated to the study of fundamentals of digital image processing and its main technologies and tools. It covers a variety of topics, from basic image processing techniques to more advanced algorithms. Additionally, it includes development tools like Git, GitHub, and npm, and also explores the use of programming languages like Python and its libraries focused on image processing, such as OpenCV and PIL.
 
 ## Recursos / Features
 
-- Estudo básico de SASS, Vue.js, React, Tailwind CSS, JavaScript, Git, GitHub, npm, TypeScript, Node.js, Express.js, Vue.js, Nuxt.js, Next.js, etc.
+- Estudo básico de processamento digital de imagens, algoritmos e técnicas
 - Exemplos de código e projetos para praticar os conceitos aprendidos
 - Documentação e tutoriais para auxiliar no aprendizado
 
-- Basic study of SASS, Vue.js, React, Tailwind CSS, JavaScript, Git, GitHub, npm, TypeScript, Node.js, Express.js, Vue.js, Nuxt.js, Next.js, etc.
+- Basic study of digital image processing, algorithms, and techniques
 - Code examples and projects to practice the learned concepts
 - Documentation and tutorials to assist in learning
-
 
 ## Como Contribuir / How to Contribute
 
